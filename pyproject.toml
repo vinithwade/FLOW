@@ -1,0 +1,12 @@
+[project]
+name = "handfn"
+version = "0.1.0"
+description = "Hold the Fn key while your left hand is visible to the webcam"
+requires-python = ">=3.12,<3.13"
+
+dependencies = [
+    "mediapipe>=0.10.18",
+    "opencv-python>=4.10.0",
+    "numpy>=1.26,<2.0",
+    "pyobjc-framework-Quartz>=10.3",
+]
